@@ -54,9 +54,7 @@ string_1 = "Esta es una cadena de texto" #elements that take any element in them
 
 print("Hola, Python")
 
-#adding somehting
-
-
+#adding something
 
 
 
