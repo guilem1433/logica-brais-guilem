@@ -13,4 +13,3 @@ def collector_of_values():
         except ValueError:
             print("Please, enter right values")
     return the_number_list
-
