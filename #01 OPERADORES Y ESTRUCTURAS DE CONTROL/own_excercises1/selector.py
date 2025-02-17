@@ -35,13 +35,21 @@ if __name__ == "__main__":
     print("run: to run the program")
     print("search: to look for a value")
 
-    choice = input("Enter choice here: ")
+        choice = input("Enter choice here: ")
 
-    if choice == "run":
-        main()
+        if choice == "run":
+            main()
 
     elif choice == "search":
         searching()
     else:
         print("invalid entrance")
 >>>>>>> d6d999c (not being able to write in the selector function)
+
+        elif choice == "exit":
+            print("finishing program")
+            break
+        else:
+            print("invalid entrance")
+if __name__ == "__main__":
+    selector_function()
