@@ -1,6 +1,6 @@
 #conditionals based in numbers
 
-def checkings (sum_function):
+def checkings_function (sum_function):
     if sum_function < 1500:
         print("*entrances are not matching the minimum quantities*")
     if sum_function > 1500:

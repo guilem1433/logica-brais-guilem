@@ -9,7 +9,7 @@ add values and I will use different types of conditionals
 """
 #Menu
 
-from checkings import checkings
+from checkings import checkings_function
 from collector_of_values import collector_of_values
 
 def main():
@@ -18,6 +18,11 @@ def main():
 
     total = sum(the_number_list)
     print("The total of values is:", total)
+
+    checkings_function(total)
+
+if __name__=="__main__":
+    main()
 
 
 
