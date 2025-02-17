@@ -11,6 +11,16 @@ add values and I will use different types of conditionals
 
 from checkings import checkings_function
 from collector_of_values import collector_of_values
+from searching_function import searching
+
+print("main: function to enter values\nsearch: to look for value")
+
+if __name__=="__main__":
+    main()
+    #__name__ will ensure that the function will run when called.
+
+if __name__=="__search__":
+    searching()
 
 def main():
     the_number_list = collector_of_values()
@@ -20,11 +30,4 @@ def main():
     print("The total of values is:", total)
 
     checkings_function(total)
-
-if __name__=="__main__":
-    main()
-
-
-
-
 
