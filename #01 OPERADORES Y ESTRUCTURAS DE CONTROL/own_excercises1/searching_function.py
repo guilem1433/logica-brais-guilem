@@ -1,5 +1,6 @@
 from collector_of_values import collector_of_values
 
+<<<<<<< HEAD
 def list_searched_elements():
 
     searched_elements = []
@@ -19,6 +20,10 @@ def searching():
 
     the_number_list = collector_of_values()
 
+=======
+def searching():
+    the_number_list = collector_of_values()
+>>>>>>> d6d999c (not being able to write in the selector function)
     values_to_be_searched = input(print("enter the values to be searched"))
 
     try:

@@ -20,6 +20,16 @@ from checkings import checkings_function
 >>>>>>> 05e1a69 (finishing the main function)
 >>>>>>> 53c4827 (finishing the main function)
 from collector_of_values import collector_of_values
+from searching_function import searching
+
+print("main: function to enter values\nsearch: to look for value")
+
+if __name__=="__main__":
+    main()
+    #__name__ will ensure that the function will run when called.
+
+if __name__=="__search__":
+    searching()
 
 #print("main: function to enter values\nsearch: to look for value")
 
@@ -35,6 +45,7 @@ def main():
 =======
     checkings_function(total)
 
+<<<<<<< HEAD
 if __name__=="__main__":
     main()
 
@@ -43,3 +54,5 @@ if __name__=="__main__":
 
 
 >>>>>>> 53c4827 (finishing the main function)
+=======
+>>>>>>> d6d999c (not being able to write in the selector function)
