@@ -9,7 +9,6 @@ add values and I will use different types of conditionals
 """
 #Menu
 
-from checkings import checkings
 from collector_of_values import collector_of_values
 
 def main():
