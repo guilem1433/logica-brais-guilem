@@ -33,6 +33,7 @@ def main():
     print("The total of values is:", total)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     checkings_function(total)
 =======
     checkings_function(total)
@@ -48,3 +49,6 @@ if __name__=="__main__":
 >>>>>>> 53c4827 (finishing the main function)
 =======
 >>>>>>> d6d999c (not being able to write in the selector function)
+=======
+    checkings_function(total)
+>>>>>>> 79de1e1 (finishing staff)
