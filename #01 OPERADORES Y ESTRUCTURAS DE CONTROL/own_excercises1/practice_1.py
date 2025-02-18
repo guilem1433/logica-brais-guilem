@@ -22,4 +22,3 @@ def main():
     print("The total of values is:", total)
 
     checkings_function(total)
-
