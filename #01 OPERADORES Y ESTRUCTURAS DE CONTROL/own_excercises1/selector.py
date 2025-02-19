@@ -1,5 +1,5 @@
 from practice_1_main import main
-from searching_valuecollector import searching
+from searching import searching
 
 def selector_function():
 

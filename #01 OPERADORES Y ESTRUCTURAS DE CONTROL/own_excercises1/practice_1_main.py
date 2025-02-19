@@ -7,10 +7,8 @@ The program will coast a dynamic list where I will,
 add values and I will use different types of conditionals
 , and functionalities in order to practice how to apply them.
 """
-#Menu
 
-from checkings import checkings_function
-from searching_valuecollector import collector_of_values
+from value_collector import collector_of_values, checkings_function
 
 #print("main: function to enter values\n search: to look for value")
 
@@ -22,7 +20,3 @@ def main():
     print("The total of values is:", total)
 
     checkings_function(total)
-
-if __name__=="__main__":
-    main()
-
