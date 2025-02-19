@@ -7,8 +7,3 @@ def checkings_function (sum_function):
         print("*entrances are over the expected*")
     if sum_function == 1500:
         print("*entrances are the expected values*")
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 5f88def (finishing the selector)
