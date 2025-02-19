@@ -9,7 +9,10 @@ add values and I will use different types of conditionals
 """
 #Menu
 
+<<<<<<< HEAD
 from checkings import checkings_function
+=======
+>>>>>>> guilem1433-logica-brais-guilem/main
 from collector_of_values import collector_of_values
 
 #print("main: function to enter values\nsearch: to look for value")

@@ -8,3 +8,4 @@ def checkings_function (sum_function):
     if sum_function == 1500:
         print("*entrances are the expected values*")
 
+
