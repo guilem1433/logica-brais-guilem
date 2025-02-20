@@ -23,3 +23,17 @@ def checkings_function (sum_function):
         print("*entrances are over the expected*")
     if sum_function == 1500:
         print("*entrances are the expected values*")
+    if sum_function < 1000:
+        sum_function += 500
+        print("over-plus added")
+    if sum_function > 2000:
+        sum_function -= 1000
+        print("over-plus diminished")
+
+
+
+
+
+
+
+

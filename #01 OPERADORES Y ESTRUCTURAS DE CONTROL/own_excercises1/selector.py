@@ -7,7 +7,7 @@ def selector_function():
     in order to keep running the program, even
     after finishing an action, we should set it
     into a loop, with condition to stop
-    :return:
+    :return
     """
     while True:
         print("\nselect function to use")
@@ -29,5 +29,3 @@ def selector_function():
             break
         else:
             print("invalid entrance")
-if __name__ == "__main__":
-    selector_function()
