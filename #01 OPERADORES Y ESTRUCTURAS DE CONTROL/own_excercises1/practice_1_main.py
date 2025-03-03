@@ -12,11 +12,11 @@ from value_collector import collector_of_values, checkings_function
 
 #print("main: function to enter values\n search: to look for value")
 
-def main():
-    the_number_list = collector_of_values()
-    print("entered values:",the_number_list)
-
-    total = sum(the_number_list)
-    print("The total of values is:", total)
-
-    checkings_function(total)
+# def main():
+#     the_number_list = collector_of_values()
+#     print("entered values:",the_number_list)
+#
+#     total = sum(the_number_list)
+#     print("The total of values is:", total)
+#
+#     checkings_function(total)

@@ -14,7 +14,16 @@ def collector_of_values():
         except ValueError:
             print("Please, enter right values")
 
+    print("entered values:", the_number_list)
+
+    total = sum(the_number_list)
+    print("The total of values is:", total)
+
+    checkings_function(total)
+
     return the_number_list
+
+
 
 def checkings_function (sum_function):
     if sum_function < 1500:

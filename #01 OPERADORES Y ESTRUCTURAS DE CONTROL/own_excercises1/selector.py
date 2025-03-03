@@ -1,4 +1,4 @@
-from practice_1_main import main
+from value_collector import collector_of_values
 from searching import searching
 
 def selector_function():
@@ -18,7 +18,7 @@ def selector_function():
         choice = input("Enter choice here: ")
 
         if choice == "run":
-            main()
+            collector_of_values()
 
         elif choice == "search":
             searching()
