@@ -19,7 +19,6 @@ def searching():
 
         except ValueError:
             print("enter, valid elements")
-
     try:
         values_to_be_searched = int(values_to_be_searched)
         if values_to_be_searched in the_number_list:
@@ -28,6 +27,5 @@ def searching():
             print(values_to_be_searched, "values not in the list")
     except ValueError:
         print("Please, enter a valid element")
-
 
     return searched_elements

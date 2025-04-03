@@ -23,8 +23,6 @@ def collector_of_values():
 
     return the_number_list
 
-
-
 def checkings_function (sum_function):
     if sum_function < 1500:
         print("*entrances are not matching the minimum quantities*")

@@ -10,4 +10,4 @@ print("10+76 == 86 or 7 - 7 == 1 gives us:", 10+76 == 86 or 7 - 7 == 1)
 ##not to negate or invert the value of a condition
 
 print("not 7 * 7 == 49 is:", not 7 * 7 == 49)
-
+print(f"the not operator would be {not 14 - 34 == 43}")
