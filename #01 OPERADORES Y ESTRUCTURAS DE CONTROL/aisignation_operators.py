@@ -1,7 +1,7 @@
 ########asignation operators###########
 
 my_integrer = 2 #asignation
-print(my_integrer)
+print(f"my_integer is {my_integrer}")
 
 my_integrer += 1 #"plus-equal", this will add "a value" and assign to the assignation
 print("in first place we will hace something like:",my_integrer) #this will simply add to value

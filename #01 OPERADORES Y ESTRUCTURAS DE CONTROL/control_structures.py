@@ -22,3 +22,12 @@ else:
     print("The numbers are wrong")
 
 
+entered_numbers = []
+while True:
+    print("enter values to be compared")
+    input(entered_numbers)
+    entered_numbers.append(input())
+    if input() == "done":
+        break
+    else:
+        print("enter valid elements"), ValueError

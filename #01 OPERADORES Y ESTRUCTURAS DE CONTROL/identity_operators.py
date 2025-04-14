@@ -12,6 +12,7 @@ print("Element no1 to be compared is:",comparison1)
 element_to_compare2: int = 70987
 other_one2 = 87976
 element_to_compare2 = other_one2
-comparison2 = element_to_compare2 is other_one2
+comparison2 = element_to_compare2 is not other_one2
 print("element to be compared no2 is:", comparison2)
+
 
