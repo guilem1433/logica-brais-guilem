@@ -21,7 +21,6 @@ elif collection1 == [345,45,34]:
 else:
     print("The numbers are wrong")
 
-
 entered_numbers = []
 while True:
     print("enter values to be compared")
